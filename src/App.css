@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.roboto-bolds {
+  font-family: "Roboto", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+}
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.logo-icon{
+  width: 25px;
+ 
+}
+.navbar{
+  background-color: #465365;
+}
+
+
+.contact{
+  text-decoration: none;
+}
+
+ 
+.email{
+ color: #9ea3ac;
+ text-decoration: none;
+}
+
+
+.number,.email{
+  margin: 0;
+  padding: 0;
+}
+.language{
+ 
+    margin-left: 60px;
+   
+}
+.my-background{
+background-color: #465365;
+}
+
+.link-background{
+  background-color: transparent !important;
+}
+
+.logo-icon{
+  margin-left: 10px;
+}
+.custom-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+ 
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  border: 2px solid #ffdda1;
+  box-shadow: 0 0 10px 5px rgba(255, 221, 161, 0.7);
+  width: 250px;
+  height: 66px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+ 
+}
+
+.custom-button:hover {
+  background-color: #ffdda1;
+  color: black;
+  box-shadow: 0 0 10px 5px rgba(255, 221, 161, 0.7);
+}
+
+.arrow {
+  margin-left: 10px;
+  font-size: 20px;
+  transition: transform 0.3s;
+}
+
+.custom-button:hover .arrow {
+  transform: translateX(5px);
+}
+
+
+
+
+.sidebar {
+  height: 100vh;
+  width: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+ background-color: #26282b;
+  padding-top: 20px;
+  z-index: 999999;
+  overflow-x: hidden !important;
+  transition: all 1.2s ease;
+}
+.sidebar.aktiv{
+  width: 440px !important;
+}
+
+
+.shirket{
+  width:100px !important ;
+
+}
+.fabars{
+  font-size: 40px;
+background-color: transparent;
+border: none;
+}
+.elaqe-gmail:hover{
+  color: #ffdda1 !important;
+  transition: all ease .6s;
+}
+.elaqe-gmail{
+  text-decoration: none !important;
+}
+.number:hover{
+  color: #ffdda1 !important;
+  transition: all ease .6s;
+}
+.language-ua:hover{
+  color: #ffdda1 !important;
+  transition: all ease .6s;
+}
+.language-en:hover{
+  color: #ffdda1 !important;
+  transition: all ease .6s;
+}
+.navigation-links:hover{
+  color: #ffdda1 !important;
+  transition: all ease .6s;
+}
+
+.socialmedia-icon{
+  font-size: 30px;
+  
+}
+.header-logo{
+  width: 250px;
+}
+.mobile-menu{
+  height: 100vh;
+  width: 0%;
+  position: fixed;
+  z-index: 99999;
+ background: rgba(0,0,0,0.6);
+ overflow-x: hidden;
+transition: all 1.2s ease;
+  
+}
+.mobiles-links a {
+  color: #fff;
+  text-decoration: none;
+  flex-direction: column;
+  font-size: 40px;
+}
+.mobiles-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.mobile-menu.aktive{
+  width: 100%;
+ 
+}
+.iconclose{
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  font-size: 40px;
+}
+
+.introduction{
+  background-image: url('/assets/images/introduction/ouse.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+ 
+height: 90vh;
+}
+.introduction1{
+  background-image: url('/assets/images/introduction/home2.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+ 
+height: 90vh;
+}
+.introduction2{
+  background-image: url('/assets/images/introduction/home3.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+ 
+height: 90vh;
+}
+.introduction-about .intro-h1,.intro-h01,.intro-h001{
+  color: #ebcfa7;
+  
+}
+.intro-h1{
+  font-size: 57px;
+}
+.intro-h01{
+  font-size: 48px;
+}
+.intro-h001{
+  font-size: 52px;
+}
+.intro-icon1{
+  width: 70px;
+  
+}
+.intro-h1,.intro-h01,.intro-h001{
+  padding-top: 150px !important;
+}
+.intro-icon1{
+  margin-left: 35px;
+    
+  }
+ 
+ 
+ .creative-build-right-side h2{
+  color: #979797 ;
+ }
+  .pozniaky{
+    color: #9f8054;
+  }
+  .creative-build-right-side  h6{
+    color: #465365;
+  }
+  .see-pro{
+    padding-top: 10px;
+  }
+  .see-projects h4{
+    padding-top: 20px;
+  }
+  .living-h2{
+    font-size: 24px;
+  }
+  .see-project-link:hover{
+    color: #ffdda1 !important;
+    transition: all ease .6s;
+
+  }
+  .static-num{
+    color: #979797 ;
+
+  }
+ .propetry-h2{
+  color: #9f8054;
+ }
+
+ .static{
+  background-color: #f9f9f9;
+ }
+ .smaller-h4{
+  font-size: 21px;
+ }
+ .shirket-logo{
+  width: 250px;
+  
+ }
+ .melumat1-minute{
+font-size: 25px;
+ }
+ .melumatlar{
+  margin-left: 130px;
+ }
+ .shirket-logo{
+  margin-left: 60px;
+ }
+@media(min-width:320px) and (max-width:374px){
+  .header-logo{
+    width: 220px;
+  }
+  .intro-h1{
+    padding-top: 100px !important;
+  }
+  .introduction-about .intro-h1{
+  
+    font-size: 46px;
+  }
+  .intro-h2{
+    font-size: 20px;
+  }
+  .intro-h02{
+    font-size: 18px;
+  }
+  .intro-h002{
+    font-size: 23px;
+  }
+ .custom-button{
+  font-size: 15px;
+  width: 200px;
+ }
+
+ 
+ .intro-icon1{
+margin-left: 24px;
+  
+}
+.introduction-about .intro-h01{
+  
+  font-size: 39px;
+  padding-top: 100px !important;
+}
+.intro-h001{
+  font-size: 42px;
+  padding-top: 100px !important;
+}
+.living-h2{
+  font-size: 19px;
+}
+.smaller-h4{
+  font-size: 17px;
+}
+.shirket-logo{
+  width: 270px !important;
+ }
+ .melumatlar{
+  margin-left: 80px;
+ }
+ .shirket-logo{
+  margin-left: 1px;
+ }
+}
+@media(min-width:768px) and (max-width:990px){
+  .intro-h1,.intro-h01,.intro-h001{
+    padding-top: 240px !important;
+  }
+  .intro-icon1{
+    margin-left: 35px;
+      
+    }
+    .custom-button{
+      width: 250px;
+   height: 66px;
+    }
+    .intro-h01{
+      font-size: 65px;
+    }
+    .intro-h001{
+      font-size: 55px;
+    }
+    .living-h2{
+      font-size: 22px;
+    }
+    .smaller-h4{
+      font-size: 19px;
+    }
+    .shirket-logo{
+      width: 270px !important;
+     }
+     .melumatlar{
+      margin-left: 120px;
+     }
+     .shirket-logo{
+      margin-left: 1px;
+     }
+}
+@media(min-width:991px){
+  .sidebar img{
+  width: 300px;
+  }
+  
+  .header-logo{
+    width: 300px;
+  }
+  .introduction-about .intro-h1,.intro-h01,.intro-h001{
+  
+    font-size: 70px !important;
+  }
+  .intro-icon1{
+    margin-left: 40px;
+  }
+  .intro-h1,.intro-h01,.intro-h001{
+    padding-top: 180px !important;
+  }
+  .custom-button{
+    width: 250px;
+ height: 66px;
+  }
+  .creative-build-img{
+    width: 525px !important;
+   }
+   .creative-build-right-side{
+    padding-top: 200px;
+   }
+   .shirket-logo{
+    width: 230px !important;
+   }
+  .living-h2{
+    font-size: 40px;
+  }
+  .melumatlar{
+    margin-left: 1px;
+   }
+   .shirket-logo{
+    margin-left: 1px;
+   }
+}
