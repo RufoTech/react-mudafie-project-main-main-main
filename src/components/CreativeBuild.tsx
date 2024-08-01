@@ -10,7 +10,7 @@ const CreativeBuild:React.FC = () => {
             <img src="/assets/images/Builds/creative-build-edited-2.png" alt=""  className='creative-build-img w-100'/>
 
         </div>
-        <div className="creative-build-right-side col-12 col-md-6 ">
+        <div className="creative-build-right-side col-12 col-md-6  ">
             <h2 className='roboto-bolds'>01</h2>
             <h1 className='playfair-display'> <span className='pozniaky'>Pozniaky</span> Construction LLC</h1>
             <h2 className='text-dark py-2 living-h2'>Living spaces for creative peoples</h2>

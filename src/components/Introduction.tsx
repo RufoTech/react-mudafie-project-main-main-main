@@ -24,7 +24,10 @@ const Introduction: React.FC = () => {
           <SwiperSlide>
             <div className="introduction ">
               <div className="container">
+                
+            
                 <span className=''>
+              
                   <h1 className='playfair-display intro-h1'>Udfort Luxury Residences</h1>
            
                 </span>
