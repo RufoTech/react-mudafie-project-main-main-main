@@ -1,8 +1,9 @@
 import React from 'react'
+import { FaChevronRight } from "react-icons/fa";
 
 const CreativeBuild:React.FC = () => {
   return (
-   <div className="creative-build creative-build-background py-5">
+   <div className="creative-build creative-build-background py-5 my-5">
      <div className='container '>
         <div className="row">
 
@@ -17,7 +18,7 @@ const CreativeBuild:React.FC = () => {
             <h4 className='py-3 playfair-display smaller-h4'>The smaller male cones release pollen,<br /> which fertilizes the female</h4>
             <div className="see-projects py-2 d-flex ">
               <img src="/assets/images/Builds/icon-m2.png" alt="" />
-              <a href="" className='text-decoration-none'><h4 className='px-4  text-dark see-project-link  '>See our projects</h4></a>
+              <a href="" className='text-decoration-none'><h4 className='px-4  text-dark see-project-link  '>See our projects <FaChevronRight className='fa-chevron-right'/></h4></a>
             </div>
 
         </div>

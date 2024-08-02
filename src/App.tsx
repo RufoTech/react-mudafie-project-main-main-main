@@ -6,6 +6,8 @@ import CreativeBuild from './components/CreativeBuild'
 import Shirketler from './components/Shirketler'
 import Statics from './components/Statics'
 import Gallery from './components/Gallery'
+import Family from './components/Family'
+import Rooms from './components/Rooms'
 
 
 function App() {
@@ -19,7 +21,8 @@ function App() {
    <Shirketler/>
      <Statics/>
      <Gallery/>
-     
+     <Family/>
+     <Rooms/>
     </>
   )
 }

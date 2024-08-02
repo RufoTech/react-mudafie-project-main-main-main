@@ -13,7 +13,7 @@ const Introduction: React.FC = () => {
           
       
           autoplay={{
-            delay: 2500,
+            delay: 2300,
             disableOnInteraction: false,
           }}
           speed={1100}
@@ -33,7 +33,7 @@ const Introduction: React.FC = () => {
                 </span>
                 <h2 className='text-light roboto-bold intro-h2 py-4'>Living Spaces In Pecherska-Kiev</h2>
                
-                <div className="intro-button py-4">
+                <div className="intro-button py-4  d-flex align-items-center">
                   <Button inTextBtn="GET A CONSTULTITION" />
                   <img src="/assets/images/introduction/service-icon-1.png" alt="" className='intro-icon1' />
                 </div>

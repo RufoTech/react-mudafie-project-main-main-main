@@ -323,7 +323,64 @@ font-size: 25px;
 .all-gallery:hover .fa-chevron-right {
   transform: translateX(5px);
 }
+.calculator-h4:hover .fa-chevron-right {
+  transform: translateX(5px);
+}
+.see-project-link:hover .fa-chevron-right {
+  transform: translateX(5px);
+}
+.melumat1{
 
+  padding: 10px;
+}
+.gallery-right-side img{
+  width: 300px;
+
+ }
+
+
+ .gallery-right-side img {
+  padding-top: 20px;
+ }
+ .gallery-property{
+  font-size: 36.2px;
+ }
+ .family-h2{
+  color: #9f8054;
+ }
+ .calculator-h4{
+  text-decoration: none;
+ }
+ .calculator-icon{
+  width: 40px;
+}
+.bank2{
+  margin-left: 40px;
+ }
+ .space-calculator{
+  color: #000 !important;
+  
+ }
+ .space-calculator:hover{
+  color: #ffdda1 !important;
+  transition: all ease .6s;
+ }
+ .homepark-living{
+  font-size: 33.1px;
+ }
+ .color{
+  color: #9f8054;
+
+ }
+ .room-right-side img{
+  width: 100%;
+ }
+ .room-length1 button,.room-length2 button,.room-length3 button{
+  background-color: transparent;
+  border: none; 
+
+ }
+ 
 @media(min-width:320px) and (max-width:374px){
   .header-logo{
     width: 220px;
@@ -352,7 +409,6 @@ font-size: 25px;
  
  .intro-icon1{
 margin-left: 24px;
-  
 }
 .introduction-about .intro-h01{
   
@@ -381,7 +437,42 @@ margin-left: 24px;
  .creative-build-right-side{
   padding-top: 10px;
  }
+ .gallery-right-side img{
+  width: 100%;
+ }
+ .gallery-right-side img {
+  width: 230px !important;
+  padding-top: 20px;
+ }
+ .gallery-property{
+  font-size: 29px;
+ }
+ .lux-living{
+  font-size: 19px;
+ }
+ .static-property{
+  font-size: 30px !important;
+ }
+ .bank1,.bank2{
+  width: 130px;
+ }
+ .bank2{
+  margin-left: 29px
+ }
+ .homepark-living{
+  font-size: 26.7px;
+ }
+ .space-calculator{
+  font-size: 17px;
+ }
+ .see-project-link{
+  font-size: 20px;
+ }
+ .room-right-side img{
+  width: 100%;
+ }
 }
+
 @media(min-width:768px) and (max-width:990px){
   .intro-h1,.intro-h01,.intro-h001{
     padding-top: 240px !important;
@@ -418,6 +509,32 @@ margin-left: 24px;
      .creative-build-right-side{
       padding-top: 1px;
      }
+     .gallery-right-side img{
+      width: 100%;
+     }
+     .gallery-right-side img {
+      
+      padding-top: 55px;
+     }
+     .static-property{
+      font-size: 40px !important;
+     }
+     .melumat1 h6{
+      font-size: 20px
+     }
+     .bank2{
+      margin-left: 29px
+     }
+     .homepark-living{
+      font-size: 30.1px;
+     }
+     .space-calculator{
+      font-size: 21px;
+     }
+     .room-right-side img{
+      width: 100%;
+     }
+   
 }
 @media(min-width:991px){
   .sidebar img{
@@ -458,5 +575,40 @@ margin-left: 24px;
    }
    .shirket-logo{
     margin-left: 1px;
+   }
+   .melumatlar{
+    text-align: center;
+  
+  }
+  .gallery-right-side img{
+   width: 230px;
+   margin-left: 100px;
+
+  }
+.family-right-side{
+  padding-top: 170px;
+}
+.calculator-icon{
+  width: 40px;
+}
+.bank2{
+  margin-left: 35px;
+}
+.female-h6{
+  font-size: 18px;
+ }
+ .square{
+  margin-left: 20px;
+ }
+ .room-right-side img{
+  width: 550px;
+ }
+}
+@media(min-width:1279px) and (max-width:1281px){
+  .creative-build-right-side{
+    padding-top: 130px;
+   }
+   .family-right-side{
+    padding-top: 100px;
    }
 }

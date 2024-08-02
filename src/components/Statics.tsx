@@ -2,12 +2,12 @@ import React from 'react'
 
 const Statics:React.FC = () => {
   return (
-    <div className="static">
+    <div className="static py-5 my-5">
         <div className="container">
             <h3 className='roboto-bolds static-num text-center'>02</h3>
-            <h2 className=' playfair-display text-center py-2' ><span className='propetry-h2'>Homepark</span> Property</h2>
-            <h2 className=' text-center'>Decorated Flats in Pozniaky - Kiev</h2>
-            <div className="melumatlar">
+            <h2 className=' playfair-display text-center py-4 static-property' ><span className='propetry-h2'>Homepark</span> Property</h2>
+            <h2 className=' text-center '>Decorated Flats in Pozniaky - Kiev</h2>
+            <div className="melumatlar py-5">
               <div className="row">
                 <div className="melumat1 col-12 col-md-6 col-lg-3">
                   <img src="/assets/images/Awards/icon-benefits01.png" alt="" className='' />
