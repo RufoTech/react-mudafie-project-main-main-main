@@ -9,6 +9,7 @@ import Gallery from './components/Gallery'
 import Family from './components/Family'
 import Rooms from './components/Rooms'
 import Family2 from './components/Family2'
+import News from './components/News'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
      <Family/>
      <Rooms/>
      <Family2/>
+     <News/>
     </>
   )
 }
