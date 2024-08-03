@@ -8,6 +8,7 @@ import Statics from './components/Statics'
 import Gallery from './components/Gallery'
 import Family from './components/Family'
 import Rooms from './components/Rooms'
+import Family2 from './components/Family2'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
      <Gallery/>
      <Family/>
      <Rooms/>
+     <Family2/>
     </>
   )
 }

@@ -380,7 +380,11 @@ font-size: 25px;
   border: none; 
 
  }
- 
+ .room-length1 h5:hover,.room-length2 h5:hover,.room-length3 h5:hover{
+  color: #ffdda1 !important;
+  transition: all ease .6s;
+ }
+
 @media(min-width:320px) and (max-width:374px){
   .header-logo{
     width: 220px;
@@ -405,6 +409,7 @@ font-size: 25px;
   font-size: 15px;
   width: 200px;
  }
+
 
  
  .intro-icon1{
@@ -470,6 +475,12 @@ margin-left: 24px;
  }
  .room-right-side img{
   width: 100%;
+ }
+ .room-left-side h1{
+  font-size: 26px
+ }
+ .room-left-side p{
+  font-size: 14px
  }
 }
 
