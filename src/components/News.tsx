@@ -1,16 +1,27 @@
 import React, { useState, useEffect } from 'react';
 import Xeber from './Xeber';
-import Xeberler from '../Xeberler.json';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
 import axios from 'axios';
+import { Pagination, Autoplay } from 'swiper/modules'; // Autoplay modülü eklendi
 
-
-
+interface Xeber {
+  title: string;
+  image: string;
+  date: string;
+  paragraph: string;
+}
 
 const News: React.FC = () => {
+  const [xeberler, setXeberler] = useState<Xeber[]>([]);
+
+  useEffect(() => {
+    axios.get('src/Xeberler.json')
+      .then(cavab => setXeberler(cavab.data))
+      .catch(err => console.log(err));
+  }, []);
+
   return (
     <div className='xeber-kartlari'>
       <Swiper
@@ -19,7 +30,7 @@ const News: React.FC = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]} 
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
@@ -38,15 +49,18 @@ const News: React.FC = () => {
             spaceBetween: 50,
           },
         }}
-        className="mySwiper py-3"
+        className="mySwiper py-4"
       >
-        {
-          Xeberler.map((birXeber) => (
-            <SwiperSlide>
-              <Xeber xeberTitle={birXeber.title} xeberImg={birXeber.image} xeberDate={birXeber.date} xeberParagraph={birXeber.paragraph}/>
-            </SwiperSlide>
-          ))
-        }
+        {xeberler.map((birXeber, index) => (
+          <SwiperSlide key={index}>
+            <Xeber 
+              xeberTitle={birXeber.title} 
+              xeberImg={birXeber.image} 
+              xeberDate={birXeber.date}
+              xeberParagraph={birXeber.paragraph}
+            />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );

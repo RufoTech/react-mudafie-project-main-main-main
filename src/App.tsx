@@ -10,6 +10,7 @@ import Family from './components/Family'
 import Rooms from './components/Rooms'
 import Family2 from './components/Family2'
 import News from './components/News'
+import Master from './components/Master'
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
      <Rooms/>
      <Family2/>
      <News/>
+     <Master/>
     </>
   )
 }
