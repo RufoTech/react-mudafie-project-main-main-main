@@ -422,6 +422,9 @@ background-color: #9f8054;
   color: #ffdda1 !important;
   transition: all ease .6s;
 }
+.xeberlerin {
+  padding-top: 130px;
+}
 @media(min-width:320px) and (max-width:374px){
   .header-logo{
     width: 220px;

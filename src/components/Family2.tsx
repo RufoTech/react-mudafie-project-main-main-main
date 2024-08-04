@@ -3,6 +3,7 @@ import Button from './Button'
 
 const Family2:React.FC = () => {
   return (
+    <>
 <div className="umumifamily">
     <div className="container">
         <div className="row">
@@ -22,6 +23,14 @@ const Family2:React.FC = () => {
         </div>
     </div>
 </div>
+<div className="xeberlerin">
+<div className="container">
+<h2 className='roboto-bolds static-num'>07</h2>
+                <h2 className='playfair-display py-2'><span className='gallery-h3'>Homepark</span> Living Spaces </h2>
+                <p className='poppins-bold male py-2'>SMALLER MALE CONES </p>
+</div>
+</div>
+</>
   )
 }
 
