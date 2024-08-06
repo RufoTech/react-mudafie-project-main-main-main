@@ -11,6 +11,8 @@ import Rooms from './components/Rooms'
 import Family2 from './components/Family2'
 import News from './components/News'
 import Master from './components/Master'
+import Certificat from './components/Certificat'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
      <Family2/>
      <News/>
      <Master/>
+     <Certificat/>
+     <Footer/>
     </>
   )
 }

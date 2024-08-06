@@ -7,7 +7,7 @@ const CreativeBuild:React.FC = () => {
      <div className='container '>
         <div className="row">
 
-        <div className="creative-build-left-side col-12 col-md-6 ">
+        <div data-aos="fade-up" className="creative-build-left-side col-12 col-md-6 ">
             <img src="/assets/images/Builds/creative-build-edited-2.png" alt=""  className='creative-build-img w-100'/>
 
         </div>
