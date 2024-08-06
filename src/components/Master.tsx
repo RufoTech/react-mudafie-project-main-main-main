@@ -1,6 +1,14 @@
-import React from 'react'
-
+import React,{useEffect} from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Master:React.FC = () => {
+  useEffect(() => {
+    AOS.init({
+     
+      easing: 'ease-in-out',
+      once: true, 
+    });
+  }, []);
   return (
     <div id="hero" className=''>
 
@@ -8,14 +16,14 @@ const Master:React.FC = () => {
       <source src="/assets/images/master/0804.mp4" type="video/mp4">
     </source></video>
 
-    <div className="content ">
+    <div data-aos="fade-up" data-aos-duration="1000" className="content  ">
       <div className="container">
         <h2 className='roboto-bolds static-num'>08</h2>
         <h2 className=' text-light playfair-display py-3'><span  className='pozniaky'>Homepark</span> Living Spaces</h2>
         <h2 className='text-light poppins-bold py-4'>Are you interested to Homepark</h2>
       
       </div>
-    <div className="container">
+    <div data-aos="fade-up" data-aos-duration="1000" className="container">
     <div className="row g-3">
         <div className="services-icon-master1 col-6 col-md-4 col-lg-2 d-flex align-items-center justify-content-center text-center">
           <img src="/assets/images/master-icons/services-icon01.png" alt="" className='' />

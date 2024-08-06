@@ -1,13 +1,21 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Button from './Button'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Family2:React.FC = () => {
+  useEffect(() => {
+    AOS.init({
+     
+      easing: 'ease-in-out',
+      once: true, 
+    });
+  }, []);
   return (
     <>
 <div className="umumifamily">
     <div className="container">
         <div className="row">
-            <div className="family2-right-side  ">
+            <div  data-aos="fade-up" data-aos-duration="1000" className="family2-right-side  ">
               <div className="container">
                 <div className="yazılar py-4 my-4">
                   <h2 className=' aile-h2 roboto-bolds py-2'>06</h2>

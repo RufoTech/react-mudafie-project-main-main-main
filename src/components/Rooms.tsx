@@ -1,8 +1,16 @@
-import React from 'react'
-
+import React,{useEffect} from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Rooms:React.FC = () => {
+    useEffect(() => {
+        AOS.init({
+         
+          easing: 'ease-in-out',
+          once: true, 
+        });
+      }, []);
   return (
-   <div className="rooms py-5 my-5 ">
+   <div  data-aos="fade-up" data-aos-duration="2000" className="rooms  py-5 my-5 ">
     <div className="container">
         <div className="row">
             <div className="room-left-side col-12 col-md-6">

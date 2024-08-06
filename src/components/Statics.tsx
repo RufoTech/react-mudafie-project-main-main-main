@@ -1,13 +1,37 @@
-import React from 'react'
-
+import React,{useEffect} from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { ReactTyped } from "react-typed";
 const Statics:React.FC = () => {
+  useEffect(() => {
+    AOS.init({
+      
+      easing: 'linear',
+      once: true, 
+    });
+  }, []);
   return (
-    <div className="static py-5 my-5">
-        <div className="container">
-            <h3 className='roboto-bolds static-num text-center'>02</h3>
+    <div data-aos="fade-up" data-aos-duration="2000" className="static py-5 my-5">
+        <div className="container ">
+           <div className="statik-melumatlar">
+           <h3 className='roboto-bolds static-num text-center'>02</h3>
             <h2 className=' playfair-display text-center py-4 static-property' ><span className='propetry-h2'>Homepark</span> Property</h2>
-            <h2 className=' text-center '>Decorated Flats in Pozniaky - Kiev</h2>
-            <div className="melumatlar py-5">
+            <ReactTyped className=' h2 npm-text'
+      strings={[
+        "Decorated Flats in Pozniaky - Kiev",
+
+        "Decorated Flats in Pozniaky - React",
+        "Decorated Flats in Pozniaky -Bootstrap",
+      ]}
+      typeSpeed={40}
+      backSpeed={50}
+     
+      loop
+    >
+      
+    </ReactTyped>
+           </div>
+            <div data-aos="fade-up" className="melumatlar py-5">
               <div className="row">
                 <div className="melumat1 col-12 col-md-6 col-lg-3">
                   <img src="/assets/images/Awards/icon-benefits01.png" alt="" className='' />

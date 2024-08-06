@@ -529,6 +529,11 @@ padding: 10px !important;
   flex: 1; 
   text-align: center; 
 }
+.npm-text{
+ display: flex !important;
+ justify-content: center !important;
+ align-items: center !important;
+}
 @media(min-width:320px) and (max-width:374px){
   .header-logo{
     width: 220px;

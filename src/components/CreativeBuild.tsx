@@ -1,17 +1,27 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { FaChevronRight } from "react-icons/fa";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const CreativeBuild:React.FC = () => {
+  useEffect(() => {
+    AOS.init({
+     
+      easing: 'ease-in-out',
+      once: true, 
+    });
+  }, []);
+
   return (
-   <div className="creative-build creative-build-background py-5 my-5">
+    
+   <div data-aos="fade-up" data-aos-duration="1500" className="creative-build creative-build-background py-5 my-5">
      <div className='container '>
         <div className="row">
 
-        <div data-aos="fade-up" className="creative-build-left-side col-12 col-md-6 ">
+        <div  className="creative-build-left-side col-12 col-md-6 ">
             <img src="/assets/images/Builds/creative-build-edited-2.png" alt=""  className='creative-build-img w-100'/>
 
         </div>
-        <div className="creative-build-right-side col-12 col-md-6  ">
+        <div   className="creative-build-right-side  col-12 col-md-6  ">
             <h2 className='roboto-bolds'>01</h2>
             <h1 className='playfair-display'> <span className='pozniaky'>Pozniaky</span> Construction LLC</h1>
             <h2 className='text-dark py-2 living-h2'>Living spaces for creative peoples</h2>

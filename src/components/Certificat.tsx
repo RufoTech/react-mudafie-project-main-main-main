@@ -1,8 +1,17 @@
-import React from 'react'
-
+import React,{useEffect} from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Certificat:React.FC = () => {
+    useEffect(() => {
+        AOS.init({
+         
+          easing: 'ease-in-out',
+          once: true, 
+        });
+      }, []);
+    
   return (
-    <div className='sertifikat'>
+    <div  data-aos="fade-up" data-aos-duration="1500" className='sertifikat '>
         <div className="container">
             <div className="row align-items-center py-5 my-5">
                 <div className="sertifikat-left-side col-12 col-md-3 py-3">

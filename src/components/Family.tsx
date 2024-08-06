@@ -1,7 +1,15 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { FaChevronRight } from "react-icons/fa";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Family:React.FC = () => {
+  useEffect(() => {
+    AOS.init({
+     
+      easing: 'ease-in-out',
+      once: true, 
+    });
+  }, []);
   return (
     <div className="family py-5 my-5">
     <div className="container">
@@ -10,7 +18,7 @@ const Family:React.FC = () => {
           <img src="/assets/images/Family-photos/Family.png" alt=""  className='w-100'/>
 
         </div>
-        <div className="family-right-side col-12 col-md-6 ">
+        <div data-aos="fade-up" data-aos-duration="1500" className="family-right-side col-12 col-md-6 ">
           <h2 className='roboto-bolds static-num '>04</h2>
           <h2 className='playfair-display homepark-living'><span className=' family-h2'>Homepark</span> Living Spaces</h2>
           <h2 className='poppins-bold py-3'>Decorated Flats in Pozniaky - Kiev</h2>

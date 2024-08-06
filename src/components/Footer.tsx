@@ -1,11 +1,19 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { FaFacebook,FaTwitter,FaLinkedin, FaGooglePlusSquare,FaYoutube } from "react-icons/fa";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Footer:React.FC = () => {
+    useEffect(() => {
+        AOS.init({
+         
+          easing: 'ease-in-out',
+          once: true, 
+        });
+      }, []);
   return (
     <>
     <div className="container">
-            <div className="footer-upside">
+            <div data-aos="fade-up" data-aos-duration="1000" className="footer-upside">
                 <div className="row">
                     <div className="footer-upside-text d-flex align-items-center col-12 col-md-4 ">
                         
@@ -46,7 +54,7 @@ const Footer:React.FC = () => {
             </div>
            
     </div>
-    <div className="footer ">
+    <div data-aos="fade-up" data-aos-duration="1000" className="footer ">
                 <div className="container">
                    <div className="row">
                     <div className="footer-section col-12 col-md-4">
