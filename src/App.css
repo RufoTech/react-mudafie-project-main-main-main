@@ -543,6 +543,7 @@ padding: 10px !important;
   color: #ffdda1 !important;
   transition: all ease .1s;
 }
+
 @media(min-width:320px) and (max-width:374px){
   .header-logo{
     width: 220px;

@@ -174,13 +174,13 @@ const Header: React.FC = () => {
             </li>
            
             <li className="nav-item">
+              <a className="nav-link text-light" href="#"><h6 className='roboto-bold px-3 navigation-links'>HOMEPARK</h6></a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link text-light" href="#"><h6 className='roboto-bold px-3 navigation-links'>PAGES</h6></a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-light" href="#"><h6 className='roboto-bold px-3 navigation-links'>APARTMENTS</h6></a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-light" href="#"><h6 className='roboto-bold px-3 navigation-links'>PAGES</h6></a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-light" href="#"><h6 className='roboto-bold px-3 navigation-links'>FACILITIES</h6></a>

@@ -14,12 +14,18 @@ import Master from './components/Master'
 import Certificat from './components/Certificat'
 import Footer from './components/Footer'
 
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 function App() {
   
 
   return (
     <>
+    <BrowserRouter> 
+    
+    </BrowserRouter>
+
+
      <Header/>
     <Introduction/>
    <CreativeBuild/>
