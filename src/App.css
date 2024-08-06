@@ -123,6 +123,43 @@ background-color: #465365;
 .sidebar.aktiv{
   width: 440px !important;
 }
+.mobile-menu{
+  height: 100vh;
+  width: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+ background-color: #26282b;
+  padding-top: 20px;
+  z-index: 999999;
+  overflow-x: hidden !important;
+  transition: all 1.2s ease;
+  
+}
+.mobiles-links a {
+  color: #fff;
+  text-decoration: none;
+  flex-direction: column;
+  font-size: 22px;
+  margin-left: 22px;
+}
+.mobiles-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  height: 100vh;
+}
+.mobile-menu.aktive{
+  width: 80%;
+ 
+}
+.iconclose{
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  font-size: 40px;
+}
 
 
 .shirket{
@@ -165,39 +202,7 @@ border: none;
 .header-logo{
   width: 250px;
 }
-.mobile-menu{
-  height: 100vh;
-  width: 0%;
-  position: fixed;
-  z-index: 99999;
- background: rgba(0,0,0,0.6);
- overflow-x: hidden;
-transition: all 1.2s ease;
-  
-}
-.mobiles-links a {
-  color: #fff;
-  text-decoration: none;
-  flex-direction: column;
-  font-size: 40px;
-}
-.mobiles-links {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-.mobile-menu.aktive{
-  width: 100%;
- 
-}
-.iconclose{
-  position: absolute;
-  right: 40px;
-  top: 40px;
-  font-size: 40px;
-}
+
 
 .introduction{
   background-image: url('/assets/images/introduction/ouse.jpg');
@@ -534,6 +539,10 @@ padding: 10px !important;
  justify-content: center !important;
  align-items: center !important;
 }
+.mobiles-links a:hover{
+  color: #ffdda1 !important;
+  transition: all ease .1s;
+}
 @media(min-width:320px) and (max-width:374px){
   .header-logo{
     width: 220px;
@@ -644,6 +653,11 @@ margin-left: 24px;
 .sertifikat-h2{
   font-size: 31px;
 }
+.mobiles-links a {
+  
+  font-size: 22px;
+  margin-left: 40px;
+}
 }
 
 @media(min-width:768px) and (max-width:990px){
@@ -738,6 +752,11 @@ margin-left: 24px;
     }
     .building-footer{
       display: none;
+    }
+    .mobiles-links a {
+  
+      font-size: 35px;
+      margin-left: 40px;
     }
 }
 @media(min-width:991px){

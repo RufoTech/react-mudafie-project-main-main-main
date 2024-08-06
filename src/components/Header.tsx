@@ -108,13 +108,13 @@ const Header: React.FC = () => {
       <IoIosCloseCircleOutline className='iconclose text-light' onClick={mobileNavbariBagla}/>
 
            <div className="mobiles-links text-light">
-          <a href="">Home</a>
-          <a href="">Home</a>
-          <a href="">Home</a>
-          <a href="">Home</a>
-          <a href="">Home</a>
-
-        
+          <a href="" className='poppins-bold'>Start</a>
+          <a href="" className='poppins-bold'>HOMPARK</a>
+          <a href="" className='poppins-bold'>PAGES</a>
+          <a href="" className='poppins-bold'>APARTMENTS</a>
+          <a href="" className='poppins-bold'>FACILITIES</a>
+          <a href="" className='poppins-bold'>NEWS</a>
+          <a href="" className='poppins-bold'>CONTANCT</a>
            </div>
         </div>
       
