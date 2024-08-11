@@ -12,10 +12,10 @@ const Footer:React.FC = () => {
       }, []);
   return (
     <>
-    <div className="container">
+    <div className="container ">
             <div data-aos="fade-up" data-aos-duration="1000" className="footer-upside">
                 <div className="row">
-                    <div className="footer-upside-text d-flex align-items-center col-12 col-md-4 ">
+                    <div className="footer-upside-text d-flex align-items-center col-12 col-md-12 col-lg-4 ">
                         
                         <img src="/assets/images/footer/footer-icon01.png" alt="" />
                         <div className="footer-text  align-items-center">
@@ -26,7 +26,7 @@ const Footer:React.FC = () => {
                       
                     </div>
                    
-                    <div className="footer-upside-text d-flex align-items-center col-12 col-md-4 ">
+                    <div className="footer-upside-text d-flex align-items-center col-12 col-md-12 col-lg-4 ">
                         
                         <img src="/assets/images/footer/footer-icon02.png" alt="" />
                         <div className="footer-text  align-items-center">
@@ -38,7 +38,7 @@ const Footer:React.FC = () => {
                       
                     </div>
                    
-                    <div className="footer-upside-text d-flex align-items-center col-12 col-md-4 ">
+                    <div className="footer-upside-text d-flex align-items-center col-12 col-md-12 col-lg-4 ">
                         
                         <img src="/assets/images/footer/footer-icon03.png" alt="" />
                         <div className="footer-text  align-items-center">

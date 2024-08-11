@@ -29,6 +29,11 @@
   font-weight: 600;
   font-style: normal;
 }
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .logo-icon{
   width: 25px;
@@ -543,6 +548,466 @@ padding: 10px !important;
   color: #ffdda1 !important;
   transition: all ease .1s;
 }
+.contact-links{
+  background-color: #465365;
+}
+.contact-links h1{
+  
+  color: #EBCFA7;
+}
+.avabile-link{
+  background-color: #9f8054;
+ 
+  padding: 25px;
+}
+.double-left-icon{
+  margin-left: 15px;
+  font-size: 20px;
+}
+.contact-link-contact{
+  color: #e4c8a0;
+}
+.contact-links h1{
+  font-size: 70px;
+}
+.contact-links{
+  padding-top: 50px;
+  height: 50vh;
+}
+.avabile-link{
+  margin-top: -45px;
+}
+.contact-melumat1{
+  padding-top: 40px;
+}
+.contact-melumat1 a:hover{
+  color: #ffdda1 !important;
+  transition: all ease .6s;
+}
+
+form {
+  width: 503px;
+  padding: 30px;
+
+  
+}
+.column-with-right-border {
+  border-right: 1px solid #dedede; 
+  padding-right: 15px; 
+}
+
+form input, form textarea {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  border-bottom: 1px solid #dedede !important;
+  resize: none;
+  color:#fff !important;
+}
+.list-style{
+  border-bottom: 1px solid #dedede !important;
+
+}
+::placeholder {
+  color: #fff !important;
+  opacity: 1;
+}
+
+.contact-form {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+ 
+.map-right-side{
+  background-color: #9f8054;
+}
+.news-left-side img{
+  width: 100%;
+}
+.list-style{
+  list-style-type:disc;
+}
+.news-right-side{
+  padding-top: 40px;
+}
+.author{
+  width: 80px;
+  border-radius: 60px;
+}
+.new-input{
+  width: 270px;
+  height: 50px;
+  border: 2px solid #EBCFA7; 
+  outline: none; 
+
+
+}
+.search-button{
+ 
+  font-size: 25px;
+  margin-left: 20px;
+ 
+}
+.search-linear{
+  border-bottom: 1px solid #dedede !important;
+
+}
+.search-left-side{
+  border-right: 1px solid #dedede; 
+  padding-right: 15px; 
+}
+.icon-tag{
+  color: #9f8054;
+  font-size: 30px;
+}
+.search-tag a{
+  margin-left: 15px
+}
+.build-section-new{
+  padding-top: 120px;
+}
+.list-style:hover,.list-style a:hover{
+  color: #ffdda1 !important;
+  transition: all ease .3s;
+}
+.tag-button {
+  font-size: 20px;
+  font-weight: bold;
+  color: #a87d5d;
+  border: 2px solid #d8b999;
+  background-color: transparent;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease;
+ 
+}
+
+.tag-button:hover {
+  background-color: #d8b999;
+  color: #fff;
+}
+.tags{
+  gap: 10px;
+}
+.search-right-side img {
+  width:100%;
+  margin-bottom: 10px; 
+  margin: 3px; 
+
+}
+.search-tag a:hover{
+  color: #ffdda1 !important;
+  transition: all ease .6s;
+}
+.search-right-side img{
+  transition: filter 0.3s ease;
+
+}
+.search-right-side img:hover{
+  filter: brightness(1.3); 
+
+}
+.button-news button{
+  width: 50px;
+  height: 50px;
+ border: 1px solid #dee2e6;
+}
+.button-2{
+  margin-left: 9px;
+  background-color: transparent;
+}
+.button-1{
+  background-color: #9F8054 !important;
+}
+.button-news button:hover{
+  color: #ffdda1 !important;
+  transition: all ease .3s;
+}
+.xeber2-img{
+  width: 100%;
+}
+.authors{
+  padding-top: 80px;
+}
+.button-page-2{
+  background-color: transparent;
+  
+}
+.button-page-1{
+  background-color:#9F8054 !important ;
+  margin-left: 10px;
+}
+.facilities-cards img{
+  width: 62px;
+  background-color: #9f8054;
+  
+
+}
+
+.facilities-card{
+  background-color: #9F8054;
+
+ 
+
+ 
+ 
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  padding-top: 30px;
+
+}
+
+.card {
+  border: none !important;
+ 
+  transition: transform 0.2s ease-in-out;
+  background-color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0px !important;
+  box-shadow: 0 0 15px rgba(235, 207, 167, 0.8);
+
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-title {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.card-text {
+  color: #95a5a6;
+}
+.card-body img{
+  width: 65px;
+}
+.card{
+  padding: px;
+}
+.apartment p{
+  color: #929395;
+}
+.aparment-price-right-side{
+  background-color: #9f8054;
+  width: 340px !important;
+  height: 420px !important;
+}
+.aparment-price-right-side h1{
+  font-weight: 800;
+  font-size: 60px;
+  text-align: center;
+  color:#fff;
+}
+.dollar{
+  color: #CFC0AA;
+  font-size:50px;
+}
+.build-size,.build-size-2{
+  padding-top: 25px;
+}
+.apartment-price-left-side img{
+  width: 100%;
+}
+.apartment{
+  padding-top: 100px;
+}
+
+.aparment-description-end{
+  background-color: #EBCFA7;
+ 
+}
+.aparment-description-end p{
+  padding-top: 20px;
+  font-weight: 500;
+}
+
+.apartment-slider img{
+  width: 100%;
+  
+  
+}
+.apartment-slider .swiper-button-prev,
+.apartment-slider .swiper-button-next {
+
+  color: burlywood;
+}
+
+.aparment-final{
+  font-weight: 500;
+}
+.form-group label{
+  font-weight: 500
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item .dropdown-menu {
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  min-width: 170px;
+  padding: 5px 0;
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-color: #26282b !important;
+}
+
+.nav-item:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: 400;
+  color: #fff !important;
+  text-align: inherit;
+  white-space: nowrap;
+  background: none;
+  border: 0;
+  text-align: center !important;
+}
+
+.dropdown-item:hover {
+  color: #26282b !important;
+}
+
+
+.homepark p {
+font-weight: 400;
+}
+.video-master{
+  width: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav li {
+  position: relative;
+}
+
+.nav a {
+  white-space: nowrap;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav li:hover a {
+  color: #9b50cc;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #EBCFA7;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-link:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.error{
+  width: 100%;
+}
+.error-section h1{
+  color: #9F8054;
+  font-weight: 1000;
+  font-size: 55px;
+  padding-top: 60px;
+}
+.error-section{
+  padding-top: 130px;
+}
+.error-section button{
+ 
+ color: #9F8054
+ 
+}
+.pages-double{
+  margin-left: 10px;
+}
+.salesoffices-card h4{
+  font-size: 26px;
+}
+.sales-button button{
+  width: 160px;
+  height: 45px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important ;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+ 
+  
+  
+}
+.sales-button button:hover{
+  background-color: #EBCFA7 !important;
+color: #000 !important;
+}
+.sales-button h6{
+  font-size: 12px
+}
+.salesoffices-card{
+  border: 1px solid #dedede;
+  width: 380px !important;
+  padding: 30px;
+}
+.salesoffices-card{
+  margin-top: 40px !important ;
+}
 
 @media(min-width:320px) and (max-width:374px){
   .header-logo{
@@ -632,6 +1097,7 @@ margin-left: 24px;
  .see-project-link{
   font-size: 20px;
  }
+ 
  .room-right-side img{
   width: 100%;
  }
@@ -659,8 +1125,85 @@ margin-left: 24px;
   font-size: 22px;
   margin-left: 40px;
 }
+.contact-links{
+  padding-top: 50px;
+  height: 65vh;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap; 
+}
+.tags h6{
+  flex: 1 1 50%;
+
+}
+.apartment-price-left-side img{
+  padding-top: 70px;
+}
+.apartment h1{
+  font-size: 21px;
+}
+.contact-links h1 {
+  font-size: 60px;
+}
+.aparment-description-end p{
+  font-size: 14px;
+}
+.aparment-description-end h3{
+  font-size: 20px;
+}
+.aparment-description-end{
+   
+  height: 160px;
+}
+.homepark-text h1{
+  font-size: 35px;
+  padding-top: 40px;
+}
+.sales-offices-h1{
+  font-size: 52px !important;
+}
+.double-left-icon-small{
+  display: none !important;
+}
+.pages-double-small{
+  display: none;
 }
 
+}
+@media(min-width:375px) and (max-width:440px){
+  .tags {
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  .tags h6{
+    flex: 1 1 50%;
+  
+  }
+  .apartment h1{
+    font-size: 26px;
+  }
+  .apartment-price-left-side img{
+    padding-top: 70px;
+  }
+  .aparment-description-end p{
+    font-size: 14px;
+  }
+  .aparment-description-end h3{
+    font-size: 20px;
+  }
+  .aparment-description-end{
+   
+    height: 125px;
+  }
+.homepark-text h1{
+  font-size: 43px;
+  padding-top: 30px;
+}
+.sales-offices-h1{
+  font-size: 65px !important;
+}
+}
 @media(min-width:768px) and (max-width:990px){
   .intro-h1,.intro-h01,.intro-h001{
     padding-top: 240px !important;
@@ -759,6 +1302,42 @@ margin-left: 24px;
       font-size: 35px;
       margin-left: 40px;
     }
+    .contact-links{
+      padding-top: 70px;
+      height: 40vh;
+    }
+    .news-right-side{
+      padding-top: 1px;
+    }
+    
+  .new-build-photo{
+    height: 60vh;
+  }
+  .right-side-img{
+    display: none;
+  }
+  .tag-button{
+    margin: 5px;
+  }
+  .apartment-price-left-side img{
+    padding-top: 70px;
+  }
+  .aparment-description-end{
+   
+    height: 140px;
+  }
+  .homepark-text h1{
+    font-size: 50px;
+    padding-top: 40px;
+  }
+  .salesoffices-card{
+    margin: 15px !important;
+  }
+  .salesoffices-card{
+    width: 330px !important;
+    padding: 30px;
+  }
+
 }
 @media(min-width:991px){
   .sidebar img{
@@ -859,7 +1438,95 @@ margin-left: 24px;
   margin-top: -100px;
   padding-top: 250px;
 }
+.contact-links h1{
+  
+  font-size: 80px;
+ 
+}
+.avabile-link{
+  width: 900px;
+  margin-top: -50px;
+  
+}
+.contact-links{
+ height: 53vh;
+}
+.contact-melumat1{
+  padding-top: 65px;
+}
+.news-left-side img{
+  width: 820px;
+}
+.news-right-side{
+  padding-top: 1px;
+}
+.build-section-new{
+  padding-top: 120px;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap; 
+}
+.tags h6{
+  flex: 1 1 50%;
 
+}
+.search-right-side h3{
+margin-top: -100px;
+}
+.search-right-side img {
+  width:95px;
+  margin-bottom: 10px; 
+  margin: 3px; 
+
+}
+.xeber2-img{
+  width: 1000px;
+}
+
+.apartment h1{
+  font-size: 4vw;
+}
+.apartment p{
+  font-size: 18px;
+}
+.apartment{
+  padding-top: 150px;
+}
+.apartment-price-left-side{
+  margin-left: 100px;
+}
+.apartment-price-left-side img{
+  width: 550px;
+}
+.aparment-description-end{
+  background-color: #EBCFA7;
+  width: 780px;
+  height: 115px;
+}
+.homepark-text h1{
+  font-size: 4vw;
+}
+.homepark-textd h5{
+  font-size: 1.25rem;
+  color: #929395;
+}
+.homepark-text{
+  padding-top: 100px;
+}
+.video-master{
+  width: 1000px !important;
+
+}
+.error{
+  width: 700px !important;
+}
+.error-section{
+  padding-top: 110px;
+}
+.salesoffices-card{
+  margin: 30px !important;
+}
 }
 @media(min-width:1279px) and (max-width:1281px){
   .creative-build-right-side{
@@ -875,4 +1542,16 @@ margin-left: 24px;
     width: 180px;
     margin-left: 60px !important;
   }
+  .card-title p{
+    font-size: 13px;
+
+  }
+  .salesoffices-card{
+    margin: 15px !important;
+  }
+  .salesoffices-card{
+    width: 350px !important;
+    padding: 30px;
+  }
+
 }

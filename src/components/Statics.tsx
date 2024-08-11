@@ -1,15 +1,8 @@
-import React,{useEffect} from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React from 'react'
+
 import { ReactTyped } from "react-typed";
 const Statics:React.FC = () => {
-  useEffect(() => {
-    AOS.init({
-      
-      easing: 'linear',
-      once: true, 
-    });
-  }, []);
+ 
   return (
     <div data-aos="fade-up" data-aos-duration="2000" className="static py-5 my-5">
         <div className="container ">

@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import { CiMenuBurger } from "react-icons/ci";
 import { FaRegWindowClose,FaFacebook,FaTwitter,FaLinkedin, FaGooglePlusSquare,FaYoutube } from "react-icons/fa";
 import { IoIosCloseCircleOutline,IoIosMenu } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 
 
@@ -115,14 +116,19 @@ const Header: React.FC = () => {
           <a href="" className='poppins-bold'>FACILITIES</a>
           <a href="" className='poppins-bold'>NEWS</a>
           <a href="" className='poppins-bold'>CONTANCT</a>
+          <a href="" className='poppins-bold'>CONTANCT</a>
+          <a href="" className='poppins-bold'>CONTANCT</a>
+          <a href="" className='poppins-bold'>CONTANCT</a>
+          <a href="" className='poppins-bold'>CONTANCT</a>
+        
            </div>
         </div>
       
       <nav className="navbar navbar-expand-lg my-background py-2 " >
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <Link  className="navbar-brand" to="/">
             <img src="/assets/images/header/logo-light.webp" alt="" className='header-logo ' />
-          </a>
+          </Link>
 
           <button  onClick={mobileNavbariAc}className="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <IoIosMenu />
@@ -170,26 +176,32 @@ const Header: React.FC = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 link-background ">
             <li className="nav-item ">
-              <a className="nav-link text-light " aria-current="page" href="#"><h6 className='roboto-bold  navigation-links px-3'>START</h6></a>
+              <Link  className="nav-link text-light " aria-current="page" to="/"><h6 className='roboto-bold  navigation-links px-3'>START</h6></Link>
             </li>
            
             <li className="nav-item">
-              <a className="nav-link text-light" href="#"><h6 className='roboto-bold px-3 navigation-links'>HOMEPARK</h6></a>
+              <Link className="nav-link text-light" to="/hompark"><h6 className='roboto-bold px-3 navigation-links'>HOMEPARK</h6></Link>
             </li>
             <li className="nav-item">
               <a className="nav-link text-light" href="#"><h6 className='roboto-bold px-3 navigation-links'>PAGES</h6></a>
+              <ul className="dropdown-menu">
+            <li><Link className="dropdown-item poppins-bold" to="/salesoffices">Sales Offices</Link></li>
+            <li><a className="dropdown-item poppins-bold" href="#">Sales Team</a></li>
+            <li><a className="dropdown-item poppins-bold" href="#">FAQ</a></li>
+            <li><a className="dropdown-item poppins-bold" href="#">Blog</a></li>
+          </ul>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="#"><h6 className='roboto-bold px-3 navigation-links'>APARTMENTS</h6></a>
+              <Link className="nav-link text-light" to="/apartment"><h6 className='roboto-bold px-3 navigation-links'>APARTMENTS</h6></Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="#"><h6 className='roboto-bold px-3 navigation-links'>FACILITIES</h6></a>
+              <Link  className="nav-link text-light" to="/facilities"><h6 className='roboto-bold px-3 navigation-links'>FACILITIES</h6></Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="#"><h6 className='roboto-bold px-3 navigation-links'>NEWS</h6></a>
+              <Link className="nav-link text-light" to="/new"><h6 className='roboto-bold px-3 navigation-links'>NEWS</h6></Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="#"><h6 className='roboto-bold navigation-links '>CONTACT</h6></a>
+              <Link className="nav-link text-light" to="/contact"><h6 className='roboto-bold navigation-links '>CONTACT</h6></Link>
             </li>
             
            

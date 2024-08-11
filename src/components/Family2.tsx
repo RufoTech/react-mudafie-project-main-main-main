@@ -1,15 +1,8 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 import Button from './Button'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 const Family2:React.FC = () => {
-  useEffect(() => {
-    AOS.init({
-     
-      easing: 'ease-in-out',
-      once: true, 
-    });
-  }, []);
+
   return (
     <>
 <div className="umumifamily">
