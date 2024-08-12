@@ -186,8 +186,8 @@ const Header: React.FC = () => {
               <a className="nav-link text-light" href="#"><h6 className='roboto-bold px-3 navigation-links'>PAGES</h6></a>
               <ul className="dropdown-menu">
             <li><Link className="dropdown-item poppins-bold" to="/salesoffices">Sales Offices</Link></li>
-            <li><a className="dropdown-item poppins-bold" href="#">Sales Team</a></li>
-            <li><a className="dropdown-item poppins-bold" href="#">FAQ</a></li>
+            <li><Link className="dropdown-item poppins-bold" to="/salesteam">Sales Team</Link></li>
+            <li><Link  className="dropdown-item poppins-bold" to="faq">FAQ</Link></li>
             <li><a className="dropdown-item poppins-bold" href="#">Blog</a></li>
           </ul>
             </li>

@@ -36,6 +36,7 @@ const Form:React.FC = () => {
       };
 
   return (
+    <>
     <div className="contact-form  py-5 my-1">
         <div className="container d-flex justify-content-center align-items-center">
                <form onSubmit={sendEmail} ref={menimFormum}>
@@ -93,6 +94,8 @@ const Form:React.FC = () => {
         </div>
        
     </div>
+    
+    </>
   )
 }
 

@@ -18,6 +18,8 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Salesoffices from './pages/Salesoffices'
+import Salesteam from './pages/Salesteam'
+import FAQ from './pages/FAQ'
 
 
 function App() {
@@ -48,6 +50,8 @@ function App() {
       <Route path='/apartment' element={<Apartment/>}/>
       <Route path='/hompark' element={<Homepark/>}/>
       <Route path='salesoffices' element={<Salesoffices/>}/>
+      <Route path='/salesteam' element ={<Salesteam/>}/>
+      <Route path='faq' element ={<FAQ/>}/>
 
     </Routes>
     <Footer/>

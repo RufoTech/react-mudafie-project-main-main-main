@@ -1008,6 +1008,54 @@ color: #000 !important;
 .salesoffices-card{
   margin-top: 40px !important ;
 }
+.worker p{
+  color: #9F9FA1;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.social-medias button{
+  background-color: transparent;
+  border: none;
+}
+.social-medias h6{
+  margin-top: 8px;
+  margin-left: 9px;
+}
+.salesteam-btn2{
+  margin-left: 10px;
+}
+.worker img{
+  width: 100%;
+}
+.worker{
+  border: 1px solid #dedede;
+ margin-top: 100px !important;
+ flex-wrap: wrap;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.worker:hover{
+  transform: translateY(-10px); /* Kartı yukarı kaydırır */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Gölge efektini artırır */
+}
+
+.social-medias button:hover{
+  color: #EBCFA7;
+  transition: .3s ease;
+}
+.sales-title {
+  display: flex;
+  align-items: center !important;
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ccc; /* Çizgi rengi */
+  margin-left: 10px; /* Yazı ile çizgi arasındaki boşluk */
+  align-items: center;
+  margin-top: -14px;
+}
 
 @media(min-width:320px) and (max-width:374px){
   .header-logo{
@@ -1527,6 +1575,17 @@ margin-top: -100px;
 .salesoffices-card{
   margin: 30px !important;
 }
+.introduction,.introduction1,.introduction2{
+  height: 95vh;
+}
+.worker img{
+  width: 304px;
+}
+.worker{
+  width: 600px !important;
+  margin: 15px;
+ margin-top: 100px !important;
+}
 }
 @media(min-width:1279px) and (max-width:1281px){
   .creative-build-right-side{
@@ -1552,6 +1611,9 @@ margin-top: -100px;
   .salesoffices-card{
     width: 350px !important;
     padding: 30px;
+  }
+  .introduction,.introduction1,.introduction2{
+    height: 90vh;
   }
 
 }

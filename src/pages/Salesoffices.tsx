@@ -19,7 +19,7 @@ const Salesoffices:React.FC = () => {
           <h6 className='text-light poppins-bold'>
             Start <FaAnglesRight className='double-left-icon' /> 
             <span className='pages-double  pages-double-small px-1'>Pages</span> <FaAnglesRight className='double-left-icon double-left-icon-small ' /> 
-            <span className='px-3 contact-link-contact'>Apartments</span>
+            <span className='px-3 contact-link-contact'>Sales Ofice</span>
           </h6>
         </div>
       </div>

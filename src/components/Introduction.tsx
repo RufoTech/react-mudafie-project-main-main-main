@@ -8,6 +8,7 @@ const Introduction: React.FC = () => {
   return (
     <>
       <div className="introduction-about">
+        
         <Swiper
           spaceBetween={0}
           
@@ -76,6 +77,8 @@ const Introduction: React.FC = () => {
         </Swiper>
         
       </div>
+
+     
     </>
   )
 }
