@@ -1035,8 +1035,8 @@ color: #000 !important;
  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .worker:hover{
-  transform: translateY(-10px); /* Kartı yukarı kaydırır */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Gölge efektini artırır */
+  transform: translateY(-10px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 .social-medias button:hover{
@@ -1051,10 +1051,114 @@ color: #000 !important;
 .line {
   flex-grow: 1;
   height: 1px;
-  background-color: #ccc; /* Çizgi rengi */
-  margin-left: 10px; /* Yazı ile çizgi arasındaki boşluk */
+  background-color: #ccc; 
+  margin-left: 10px; 
   align-items: center;
   margin-top: -14px;
+}
+.accardion-left-side{
+  background-color: #9F8054;
+ 
+}
+.questions{
+  font-size: 300px;
+}
+.accordion-summary-hover:hover{
+  color: #EBCFA7;
+  transition: .6s ease;
+
+}
+.accordion-summary-hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Tek bir gölge tanımı */
+
+}
+
+
+
+
+
+.contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+
+
+.right{
+	padding: 25px 40px;
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ecc71;
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #2ecc71;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover{
+    background-color: #27ae60;
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
 }
 
 @media(min-width:320px) and (max-width:374px){

@@ -60,8 +60,7 @@ const Contact:React.FC = () => {
     <div className="py-5 my-5"></div>
 
     </div>
-
-        
+  
     
    
 </>
