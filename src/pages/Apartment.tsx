@@ -37,19 +37,19 @@ const Apartment:React.FC = () => {
       </div>
       </div>
 
-      <div className="aparment-price">
+      <div  className="aparment-price">
         <div className="container">
             <div className="row">
                 <div className="aparment-price-right-side col-12 col-md-6 ">
-                    <div className="container d-flex align-items-center">
+                    <div data-aos="fade-up" data-aos-duration="1500" className="container d-flex align-items-center">
                         <h1 className='poppins-bold'>25,700 <FaDollarSign className='dollar'/> </h1>
                        
                        
                     </div>
-                    <div className="container">
+                    <div data-aos="fade-up" data-aos-duration="1500" className="container">
                     <p className='text-light poppins-bold'>Price of property</p>
                     </div>
-                    <div className="container d-flex align-items-center build-size">
+                    <div data-aos="fade-up" data-aos-duration="1500" className="container d-flex align-items-center build-size">
                         <h1 className='poppins-bold'>47 <span>m² </span>  </h1>
                        
 
@@ -57,10 +57,10 @@ const Apartment:React.FC = () => {
                        
                        
                     </div>
-                    <div className="container">
+                    <div  data-aos="fade-up" data-aos-duration="1500" className="container">
                     <p className='text-light poppins-bold'>Size Of Apartment</p>
                     </div>
-                    <div className="container d-flex align-items-center build-size-2">
+                    <div  data-aos="fade-up" data-aos-duration="1500" className="container d-flex align-items-center build-size-2">
                         <h1 className='poppins-bold'>23 <span>% </span>  </h1>
                        
 
@@ -68,14 +68,14 @@ const Apartment:React.FC = () => {
                        
                        
                     </div>
-                    <div className="container">
+                    <div data-aos="fade-up" data-aos-duration="1500" className="container">
                     <p className='text-light poppins-bold'>Mortage credit percentage</p>
 
 
                     </div>
 
                 </div>
-                <div className="apartment-price-left-side col-12 col-md-6 ">
+                <div data-aos="fade-up" data-aos-duration="2000" className="apartment-price-left-side col-12 col-md-6 ">
                     <img src="/assets/images/Homeplan/plan01.jpg" alt="" className='' />
 
                 </div>
@@ -100,20 +100,20 @@ const Apartment:React.FC = () => {
       <div className="apartment-image">
         <div className="container">
           <div className="row">
-            <div className="col-12 col-md-4">
+            <div data-aos="fade-up" data-aos-duration="1000" className="col-12 col-md-4">
               <img src="/assets/images/apartment/blog01.jpg" alt="" className='w-100 py-3' />
             </div>
-            <div className="col-12 col-md-4">
+            <div data-aos="fade-up" data-aos-duration="2000" className="col-12 col-md-4">
               <img src="/assets/images/apartment/blog02.jpg" alt=""  className='w-100 py-3'/>
             </div>
-            <div className="col-12 col-md-4">
+            <div data-aos="fade-up" data-aos-duration="3000" className="col-12 col-md-4">
               <img src="/assets/images/apartment/blog03.jpg" alt="" className='w-100 py-3' />
             </div>
           </div>
         </div>
       </div>
 
-      <div className="apartment-description">
+      <div data-aos="fade-up" data-aos-duration="2000" className="apartment-description">
         <div className="container">
           <h4 className='poppins-bold py-3'>Take the life quality to an upper level</h4>
           <p className='py-2 roboto-light'>Lady am room head so lady four or eyes an. He do of consulted sometimes concluded mr. An household behaviour if pretended.Apartments simplicity or understood do it we. Song such eyes had and off. Removed winding ask explain delight out few behaved lasting. Letters old hastily ham sending not  Oh is indeed twenty entire figure. Occasional diminution announcing new now literature terminated.</p>
@@ -179,7 +179,7 @@ const Apartment:React.FC = () => {
    
       </div>
 
-      <div className="aparment-final py-4">
+      <div data-aos="fade-up" data-aos-duration="2000" className="aparment-final py-4">
         <div className="container">
           <p className='roboto-light py-3'>Considered an invitation do introduced sufficient understood instrument it. Of decisively friendship in as collecting at. No affixed be husband ye females brother garrets proceed. Least child who seven happy yet balls young. Discovery sweetness principle discourse shameless bed one excellent. Sentiments of surrounded friendship dispatched connection is he. Me or produce besides hastily up as pleased. Bore less when had and john shed hope.</p>
           <p className='roboto-light py-3'> Started earnest brother believe an exposed so. Me he believing daughters if forfeited at furniture. Age again and stuff downs spoke. Late hour new nay able fat each sell. Nor themselves age introduced frequently use unsatiable devonshire get. They why quit gay cold rose deal park. One same they four did ask busy. Reserved opinions fat him nay position. Breakfast as zealously incommode do agreeable furniture. One too nay led fanny allow plate.</p>

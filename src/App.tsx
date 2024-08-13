@@ -20,6 +20,8 @@ import 'aos/dist/aos.css';
 import Salesoffices from './pages/Salesoffices'
 import Salesteam from './pages/Salesteam'
 import FAQ from './pages/FAQ'
+import Blog from './pages/Blog'
+import Testimonial from './pages/Testimonial'
 
 
 function App() {
@@ -52,6 +54,8 @@ function App() {
       <Route path='salesoffices' element={<Salesoffices/>}/>
       <Route path='/salesteam' element ={<Salesteam/>}/>
       <Route path='faq' element ={<FAQ/>}/>
+      <Route path='/blog' element={<Blog/>}/>
+      <Route path='/testimonials' element ={<Testimonial/>}/>
 
     </Routes>
     <Footer/>

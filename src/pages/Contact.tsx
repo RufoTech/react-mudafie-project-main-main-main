@@ -22,7 +22,7 @@ const Contact:React.FC = () => {
     
     </div>
 
-    <div className="contact-melumatlari  py-5 my-5  align-items-center ">
+    <div data-aos="fade-up" data-aos-duration="2000" className="contact-melumatlari  py-5 my-5  align-items-center ">
    <div className="row">
     <div className="contact-melumat col-12 col-md-6 py-3">
     <h2 className='roboto-bolds static-num'>07</h2>
@@ -44,12 +44,12 @@ const Contact:React.FC = () => {
 
     </div>
 
-    <div className="google-map  ">
+    <div data-aos="fade-up" data-aos-duration="1500" className="google-map  ">
         <div className="row">
             <div className="map-left-side col-12 col-md-6">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.8508906436773!2d49.87025883620267!3d40.38252485947876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307de28bc878af%3A0x5e324b5681f291aa!2sM%C4%B0T%20Academy!5e0!3m2!1str!2saz!4v1722966048241!5m2!1str!2saz" width="600" height="450"   loading="lazy" className='w-100'></iframe>
             </div>
-            <div className="map-right-side col-12 col-md-6">
+            <div data-aos="fade-up" data-aos-duration="2500" className="map-right-side col-12 col-md-6">
                 <Form/>
                 
 

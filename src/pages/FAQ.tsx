@@ -43,7 +43,7 @@ const FAQ: React.FC = () => {
       </div>
 
       <div className="container">
-        <div className="support-center text-center">
+        <div className="support-center text-center my-5 py-5">
           <CiCircleQuestion className='questions' />
           <h2 className='playfair-display gallery-h3 py-3'>Support Center</h2>
           <h5 className='py-3'>
@@ -209,6 +209,7 @@ const FAQ: React.FC = () => {
         
         </div>
       </div>
+      <div className="my-5 py-5" > </div>
     </>
   );
 };

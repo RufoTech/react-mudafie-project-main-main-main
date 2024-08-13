@@ -38,7 +38,7 @@ const Facilities:React.FC = () => {
                 </div>
             </div>
         </div>
-        <div className="col-lg-4 col-md-6 mb-4">
+        <div data-aos="fade-up" data-aos-duration="1000" className="col-lg-4 col-md-6 mb-4">
             <div className="card  text-center">
                 <div className="card-body d-flex align-items-center">
                     <div className="icon mb-3 ">
@@ -55,7 +55,7 @@ const Facilities:React.FC = () => {
                 </div>
             </div>
         </div>
-        <div className="col-lg-4 col-md-6 mb-4">
+        <div data-aos="fade-up" data-aos-duration="1500" className="col-lg-4 col-md-6 mb-4">
             <div className="card  text-center">
                 <div className="card-body d-flex align-items-center">
                     <div className="icon mb-3 ">
@@ -68,7 +68,7 @@ const Facilities:React.FC = () => {
                 </div>
             </div>
         </div>
-        <div className="col-lg-4 col-md-6 mb-4 kart">
+        <div data-aos="fade-up" data-aos-duration="2000" className="col-lg-4 col-md-6 mb-4 kart">
             <div className="card  text-center">
                 <div className="card-body d-flex align-items-center">
                     <div className="icon mb-3 ">
@@ -82,7 +82,7 @@ const Facilities:React.FC = () => {
                 </div>
             </div>
         </div>
-        <div className="col-lg-4 col-md-6 mb-4">
+        <div data-aos="fade-up" data-aos-duration="2000" className="col-lg-4 col-md-6 mb-4">
             <div className="card  text-center">
                 <div className="card-body d-flex align-items-center">
                     <div className="icon mb-3 ">
@@ -100,7 +100,7 @@ const Facilities:React.FC = () => {
                 </div>
             </div>
         </div>
-        <div className="col-lg-4 col-md-6 mb-4">
+        <div data-aos="fade-up" data-aos-duration="2000" className="col-lg-4 col-md-6 mb-4">
             <div className="card  text-center">
                 <div className="card-body d-flex align-items-center">
                     <div className="icon mb-3 ">
@@ -114,7 +114,7 @@ const Facilities:React.FC = () => {
                 </div>
             </div>
         </div>
-        <div className="col-lg-4 col-md-6 mb-4 ">
+        <div data-aos="fade-up" data-aos-duration="2000" className="col-lg-4 col-md-6 mb-4 ">
             <div className="card  text-center">
                 <div className="card-body d-flex align-items-center">
                     <div className="icon mb-3 ">
@@ -128,7 +128,7 @@ const Facilities:React.FC = () => {
                 </div>
             </div>
         </div>
-        <div className="col-lg-4 col-md-6 mb-4">
+        <div data-aos="fade-up" data-aos-duration="2000" className="col-lg-4 col-md-6 mb-4">
             <div className="card  text-center">
                 <div className="card-body d-flex align-items-center">
                     <div className="icon mb-3 ">
@@ -146,7 +146,7 @@ const Facilities:React.FC = () => {
                 </div>
             </div>
         </div>
-        <div className="col-lg-4 col-md-6 mb-4">
+        <div data-aos="fade-up" data-aos-duration="2000" className="col-lg-4 col-md-6 mb-4">
             <div className="card  text-center">
                 <div className="card-body d-flex align-items-center">
                     <div className="icon mb-3 ">
