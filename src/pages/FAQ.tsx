@@ -23,7 +23,7 @@ const FAQ: React.FC = () => {
       <div className='contact-links'>
         <div className="container">
           <h1 data-aos="fade-up" className='playfair-display py-4 sales-offices-h1'>
-            <span className=''>Sales Offices</span>
+            <span className=''>FAQ</span>
           </h1>
           <h5 data-aos="fade-up" className='text-light roboto-light'>
             The smaller male cones release pollen, which fertilizes the female

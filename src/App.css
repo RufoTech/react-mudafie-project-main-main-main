@@ -166,6 +166,13 @@ background-color: #465365;
   font-size: 40px;
 }
 
+.extra-links {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column; 
+  
+}
+
 
 .shirket{
   width:100px !important ;
@@ -1230,6 +1237,10 @@ color: #000 !important;
 .blog-card-content {
   transition: background-color 0.3s ease;
 }
+
+
+
+
 @media(min-width:320px) and (max-width:374px){
   .header-logo{
     width: 220px;
@@ -1567,6 +1578,8 @@ margin-left: 24px;
  .blog-card-container {
   grid-template-columns: 1fr 1fr;
 }
+
+
 }
 @media(min-width:991px){
   .sidebar img{
@@ -1817,5 +1830,13 @@ margin-top: -100px;
   .blog-upleft-side img{
     width: 600px !important ;
     margin-top: 20px;
+  }
+  .worker{
+    width: 500px !important;
+    justify-content: center;
+    
+  }
+  .worker-about{
+    padding-top: 20px;
   }
 }

@@ -37,7 +37,12 @@ const Header: React.FC = () => {
       }
       
     }
+    const [isPagesOpen, setIsPagesOpen] = useState(false);
 
+    const togglePagesMenu = (e: React.MouseEvent) => {
+        e.preventDefault();
+        setIsPagesOpen(!isPagesOpen);
+    };
   return (
     <>
     
@@ -105,25 +110,29 @@ const Header: React.FC = () => {
         </div>
       </div>
 
-      <div className="mobile-menu "ref={mobileMenuElement}>
-      <IoIosCloseCircleOutline className='iconclose text-light' onClick={mobileNavbariBagla}/>
+      <div className="mobile-menu " ref={mobileMenuElement}>
+    <IoIosCloseCircleOutline className='iconclose text-light' onClick={mobileNavbariBagla} />
 
-           <div className="mobiles-links text-light">
-          <a href="" className='poppins-bold'>Start</a>
-          <a href="" className='poppins-bold'>HOMPARK</a>
-          <a href="" className='poppins-bold'>PAGES</a>
-          <a href="" className='poppins-bold'>APARTMENTS</a>
-          <a href="" className='poppins-bold'>FACILITIES</a>
-          <a href="" className='poppins-bold'>NEWS</a>
-          <a href="" className='poppins-bold'>CONTANCT</a>
-          <a href="" className='poppins-bold'>CONTANCT</a>
-          <a href="" className='poppins-bold'>CONTANCT</a>
-          <a href="" className='poppins-bold'>CONTANCT</a>
-          <a href="" className='poppins-bold'>CONTANCT</a>
-        
-           </div>
-        </div>
-      
+    <div className="mobiles-links text-light">
+        <Link to="/" className='poppins-bold'>START</Link>
+        <Link to="/hompark" className='poppins-bold'>HOMPARK</Link>
+        <a href="#" onClick={togglePagesMenu} className='poppins-bold'>PAGES</a>
+        {isPagesOpen && (
+            <div className="extra-links">
+                <Link to="/salesoffices" className='poppins-bold'>Sales Offices</Link>
+                <Link to="/salesteam" className='poppins-bold'>Sales Team</Link>
+                <Link to="/faq" className='poppins-bold'>FAQ</Link>
+                <Link to="/blog" className='poppins-bold'>Testimonials</Link>
+                <Link to="/testimonials" className='poppins-bold'>Blog</Link>
+            </div>
+        )}
+        <Link to="/apartment" className='poppins-bold'>APARTMENTS</Link>
+        <Link to="/facilities" className='poppins-bold'>FACILITIES</Link>
+        <Link to="/new" className='poppins-bold'>NEWS</Link>
+        <Link to="/contact" className='poppins-bold'>CONTACT</Link>
+    </div>
+</div>
+
       <nav className="navbar navbar-expand-lg my-background py-2 " >
         <div className="container">
           <Link  className="navbar-brand" to="/">
