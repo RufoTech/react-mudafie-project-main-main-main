@@ -42,7 +42,7 @@ const FAQ: React.FC = () => {
         </div>
       </div>
 
-      <div className="container">
+      <div data-aos="fade-up" data-aos-duration="2000" className="container">
         <div className="support-center text-center my-5 py-5">
           <CiCircleQuestion className='questions' />
           <h2 className='playfair-display gallery-h3 py-3'>Support Center</h2>
@@ -52,7 +52,7 @@ const FAQ: React.FC = () => {
         </div>
       </div>
 
-      <div className="container">
+      <div data-aos="fade-up" data-aos-duration="1000" className="container">
         <div>
           <Accordion expanded={expandedPanel === 'panel1'} onChange={handleChange('panel1')}>
             <AccordionSummary

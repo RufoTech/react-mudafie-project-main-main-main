@@ -12,7 +12,7 @@ const Apartment:React.FC = () => {
    <>
     <div   className='contact-links'>
         <div className="container">
-          <h1 data-aos="fade-up" className='playfair-display py-4'>Apartments</h1>
+          <h1 data-aos="fade-up" className='playfair-display py-4 apartment-h1'>Apartments</h1>
           <h5 data-aos="fade-up" className='text-light roboto-light'>
             The smaller male cones release pollen, which fertilizes the female
           </h5>

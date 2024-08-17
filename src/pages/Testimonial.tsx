@@ -48,7 +48,7 @@ const Testimonial:React.FC = () => {
         </div>
       </div>
 
-      <div className="blog-upside">
+      <div data-aos="fade-up" data-aos-duration="1000" className="blog-upside">
         <div className="container">
             <div className="row">
                 <div className="blog-upright-side  col-12  col-md-6" >
@@ -71,7 +71,7 @@ const Testimonial:React.FC = () => {
         </div>
       </div>
       
-      <div className="container">
+      <div data-aos="fade-up" data-aos-duration="1000" className="container">
       <div className="blog-card-container">
         {posts.map(post => (
           <div key={post.id} className="blog-card">

@@ -23,7 +23,7 @@ const Salesoffices:React.FC = () => {
           </h6>
         </div>
       </div>
-      <div className="container">
+      <div data-aos="fade-up" data-aos-duration="1000" className="container">
         <div className='salesoffices-cards'>
        <div className="row">
         <div className="salesoffices-card col-12 col-lg-4 col-md-6 ">

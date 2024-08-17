@@ -31,7 +31,7 @@ const New:React.FC = () => {
 
     <div className="container  build-section-new">
         <div className="row ">
-            <div className="news-left-side col-12 col-md-9 column-with-right-border">
+            <div  data-aos="fade-up" data-aos-duration="1000" className="news-left-side col-12 col-md-9 column-with-right-border">
                 <img src="/assets/images/News/news1.png" alt=""  className='new-build-photo'/>
                 
 
@@ -42,20 +42,20 @@ const New:React.FC = () => {
             
               
                <ul className='list-style'>
-                <li><a href="" className='text-decoration-none poppins-bold text-dark'><h6>Web Design</h6></a></li>
-                <li>               <a href="" className='text-decoration-none poppins-bold text-dark'><h6>Web Devolopment</h6></a>
+                <li data-aos="fade-up" data-aos-duration="1000"><a href="" className='text-decoration-none poppins-bold text-dark'><h6>Web Design</h6></a></li>
+                <li data-aos="fade-up" data-aos-duration="1000" >               <a href="" className='text-decoration-none poppins-bold text-dark'><h6>Web Devolopment</h6></a>
+                </li  >
+                <li data-aos="fade-up" data-aos-duration="1000">             <a href="" className='text-decoration-none poppins-bold text-dark'><h6>e-Commerce</h6></a>
                 </li>
-                <li>             <a href="" className='text-decoration-none poppins-bold text-dark'><h6>e-Commerce</h6></a>
+                <li data-aos="fade-up" data-aos-duration="1000">                <a href="" className='text-decoration-none poppins-bold text-dark'><h6>Woo Commerce</h6></a>
                 </li>
-                <li>                <a href="" className='text-decoration-none poppins-bold text-dark'><h6>Woo Commerce</h6></a>
+                <li  data-aos="fade-up" data-aos-duration="1000">                <a href="" className='text-decoration-none poppins-bold text-dark'><h6>Wordpress</h6></a>
                 </li>
-                <li>                <a href="" className='text-decoration-none poppins-bold text-dark'><h6>Wordpress</h6></a>
-                </li>
-                <li>
+                <li data-aos="fade-up" data-aos-duration="1000">
                 <a href="" className='text-decoration-none poppins-bold text-dark'><h6>App Devolopment</h6></a>
 
                 </li>
-                <li>
+                <li data-aos="fade-up" data-aos-duration="1000">
                 <a href="" className='text-decoration-none poppins-bold text-dark'> <h6>Print Design</h6></a>
 
                 </li>
@@ -74,7 +74,7 @@ const New:React.FC = () => {
     </div>
 
     <div className="container">
-    <div className="search-new">
+    <div data-aos="fade-up" data-aos-duration="1000" className="search-new">
         <div className="row">
             <div className="search-left-side col-12 col-md-9 ">
                 <div className="authors d-flex align-items-center">
@@ -105,14 +105,14 @@ const New:React.FC = () => {
         </div>
         </div>
     </div>
-    <div className="container  build-section-new">
+    <div data-aos="fade-up" data-aos-duration="1000" className="container  build-section-new">
         <div className="row  ">
             <div className="news-left-side col-12 col-md-9 column-with-right-border">
                 <img src="/assets/images/News/news2.png" alt=""  className='new-build-photo'/>
                 
 
             </div>
-            <div className="news-right-side col-12 col-md-3   ">
+            <div data-aos="fade-up" data-aos-duration="1000" className="news-right-side col-12 col-md-3   ">
             <h3 className='playfair-display'>Tags</h3>
             <div className="tags py-3  ">
                <button className='tag-button '> <h6  className=''>Animation</h6></button>

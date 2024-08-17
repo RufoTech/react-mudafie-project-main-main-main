@@ -23,7 +23,7 @@ const Salesteam:React.FC = () => {
           </h6>
         </div>
       </div>
-<div className='salesteam'>
+<div data-aos="fade-up" data-aos-duration="1000" className='salesteam'>
       <div className="container">
         <div className="row">
           <div className="worker  col-12 col-md-6 d-flex align-items-center">
@@ -46,7 +46,7 @@ const Salesteam:React.FC = () => {
             </div>
             
           </div>
-          <div className="worker  col-12 col-md-6 d-flex align-items-center">
+          <div data-aos="fade-up" data-aos-duration="1000" className="worker  col-12 col-md-6 d-flex align-items-center">
             <img src="/assets/images/workers/team02.jpg" alt="" />
           
             <div className="worker-about">
@@ -66,10 +66,10 @@ const Salesteam:React.FC = () => {
             </div>
             
           </div>
-          <div className="worker  col-12 col-md-6 d-flex align-items-center">
+          <div data-aos="fade-up" data-aos-duration="1000" className="worker  col-12 col-md-6 d-flex align-items-center">
             <img src="/assets/images/workers/team03.jpg" alt="" />
           
-            <div className="worker-about">
+            <div  className="worker-about">
               <h2 className='playfair-display'><span className='gallery-h3'>Sasha</span> Alexander </h2>
               <p className='static-num py-2'>SENIOR SALES OFFICER </p>
              <div className="social-medias d-flex">

@@ -41,6 +41,8 @@ const Form:React.FC = () => {
         <div className="container d-flex justify-content-center align-items-center">
                <form onSubmit={sendEmail} ref={menimFormum}>
 
+
+
 <div className="form-group">
         <label htmlFor="ad">Name</label>
         <input
@@ -78,7 +80,7 @@ const Form:React.FC = () => {
           className="form-control shadow-none"
          id='message '
           placeholder="Message"
-          name='mesaj'
+          name='message'
           
           
         />
