@@ -26,7 +26,7 @@ const Homepark:React.FC = () => {
         </div>
       </div>
 
-<div data-aos="fade-up" data-aos-duration="1000" className="homepark-text ">
+<div data-aos="fade-up" data-aos-duration="2000" className="homepark-text ">
     <div className="container">
         <h1 className='playfair-display'> <span className='gallery-h3'>Zaga</span> Construction  </h1>
         <h5 className='poppins-bold py-4 '> By aiming to take the life quality to an upper level with the whole realized Projects of luxury. </h5>
@@ -38,7 +38,7 @@ const Homepark:React.FC = () => {
 
 
 
-      <div data-aos="fade-up" data-aos-duration="1000"  className="homepark py-4">
+      <div data-aos="fade-up" data-aos-duration="2000"  className="homepark py-4">
         <div className="container">
             <div className="row">
                 <div  className=" homepark-left-side col-12 col-md-6">
@@ -73,7 +73,7 @@ const Homepark:React.FC = () => {
    
       </div>
       
-      <div data-aos="fade-up" data-aos-duration="1000" className="apartment-description py-2">
+      <div data-aos="fade-up" data-aos-duration="2000" className="apartment-description py-2">
         <div className="container">
           <h4 className='poppins-bold py-3'>Take the life quality to an upper level</h4>
           <p className='py-2 roboto-light'>Lady am room head so lady four or eyes an. He do of consulted sometimes concluded mr. An household behaviour if pretended.Apartments simplicity or understood do it we. Song such eyes had and off. Removed winding ask explain delight out few behaved lasting. Letters old hastily ham sending not  Oh is indeed twenty entire figure. Occasional diminution announcing new now literature terminated.</p>
@@ -89,7 +89,7 @@ const Homepark:React.FC = () => {
 
         </div>
       </div>
-      <div data-aos="fade-up" data-aos-duration="1000" className="container py-5 my-2">
+      <div data-aos="fade-up" data-aos-duration="2000" className="container py-5 my-2">
      <div className="row">
             <div className="col-12 col-md-6 ">
             <ul>
@@ -131,7 +131,7 @@ const Homepark:React.FC = () => {
      </div>
 
     
-     <div data-aos="fade-up" data-aos-duration="1000" className="div d-flex align-items-center justify-content-center">
+     <div data-aos="fade-up" data-aos-duration="2000" className="div d-flex align-items-center justify-content-center">
           <video autoPlay loop muted className='video-master d-flex align-items-center justify-content-center'>
       <source src="/assets/images/master/0804.mp4" type="video/mp4">
     </source></video>
@@ -139,7 +139,7 @@ const Homepark:React.FC = () => {
 
 
 
-<div data-aos="fade-up" data-aos-duration="1000" className="container">
+<div data-aos="fade-up" data-aos-duration="2000" className="container">
     <p className='roboto-light my-5'>Considered an invitation do introduced sufficient understood instrument it. Of decisively friendship in as collecting at. No affixed be husband ye females brother garrets proceed. Least child who seven happy yet balls young. Discovery sweetness principle discourse shameless bed one excellent. Sentiments of surrounded friendship dispatched connection is he. Me or produce besides hastily up as pleased. Bore less when had and john shed hope.
 
 </p>
