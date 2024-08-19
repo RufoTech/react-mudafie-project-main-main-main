@@ -1238,9 +1238,9 @@ color: #000 !important;
   transition: background-color 0.3s ease;
 }
 
-
-
-
+body::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari ve diğer WebKit tabanlı tarayıcılar */
+}
 @media(min-width:320px) and (max-width:374px){
   .header-logo{
     width: 220px;
@@ -1772,7 +1772,7 @@ margin-top: -100px;
   margin: 30px !important;
 }
 .introduction,.introduction1,.introduction2{
-  height: 95vh;
+  height: 80vh;
 }
 .worker img{
   width: 304px;
@@ -1823,7 +1823,7 @@ margin-top: -100px;
     padding: 30px;
   }
   .introduction,.introduction1,.introduction2{
-    height: 90vh;
+    height: vh;
   }
   .testimonial-card{
     margin: 20px;
