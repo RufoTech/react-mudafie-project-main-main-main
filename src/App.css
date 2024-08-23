@@ -40,7 +40,9 @@
  
 }
 .navbar{
-  background-color: #465365;
+  background-color: transparent;
+  position: absolute;
+z-index: 2;
 }
 
 
@@ -65,9 +67,13 @@
    
 }
 .my-background{
-background-color: #465365;
+background-color:transparent;
 }
-
+.myswipers{
+  margin-top: -155px;
+  position: absolute;
+  z-index: 1;
+}
 .link-background{
   background-color: transparent !important;
 }
@@ -258,7 +264,7 @@ height: 90vh;
   
 }
 .intro-h1,.intro-h01,.intro-h001{
-  padding-top: 150px !important;
+  padding-top: 300px !important;
 }
 .intro-icon1{
   margin-left: 35px;
@@ -1600,7 +1606,7 @@ margin-left: 24px;
     margin-left: 40px;
   }
   .intro-h1,.intro-h01,.intro-h001{
-    padding-top: 180px !important;
+    padding-top: 300px !important;
   }
   .custom-button{
     width: 250px;
@@ -1772,7 +1778,7 @@ margin-top: -100px;
   margin: 30px !important;
 }
 .introduction,.introduction1,.introduction2{
-  height: 80vh;
+  height: 100vh;
 }
 .worker img{
   width: 304px;
@@ -1823,7 +1829,7 @@ margin-top: -100px;
     padding: 30px;
   }
   .introduction,.introduction1,.introduction2{
-    height: vh;
+    height:100vh !important;
   }
   .testimonial-card{
     margin: 20px;

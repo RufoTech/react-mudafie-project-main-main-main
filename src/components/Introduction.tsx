@@ -20,7 +20,7 @@ const Introduction: React.FC = () => {
           speed={1100}
           modules={[Autoplay]}
 
-          className="mySwiper"
+          className="mySwiper myswipers"
         >
           <SwiperSlide>
             <div className="introduction ">
